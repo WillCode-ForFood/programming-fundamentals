@@ -6,7 +6,7 @@ namespace syntax_basics_exersises
     {
         static void Main(string[] args)
         {
-            string name = Console.ReadLine();
+            string paca = Console.ReadLine();
             int currentHealth = int.Parse(Console.ReadLine());
             int maxHealth = int.Parse(Console.ReadLine());
             int currentEnergy = int.Parse(Console.ReadLine());
