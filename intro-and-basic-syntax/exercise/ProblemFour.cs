@@ -8,10 +8,10 @@ namespace Homeworks
         {
             string name = Console.ReadLine();
             int volume = int.Parse(Console.ReadLine());
-            double kcalPerHundred = double.Parse(Console.ReadLine()) / 100;
-            double sugarPerHundred = double.Parse(Console.ReadLine()) / 100;
+            double kcal = double.Parse(Console.ReadLine()) / 100;
+            double sugar = double.Parse(Console.ReadLine()) / 100;
 
-            Console.WriteLine($"{volume}ml {name}: \r\n{kcalPerHundred * volume}kcal, {sugarPerHundred * volume}g sugars");
+            Console.WriteLine($"{volume}ml {name}: \r\n{kcal * volume}kcal, {sugar * volume}g sugars");
         }
     }
 }
