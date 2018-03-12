@@ -7,7 +7,7 @@ namespace syntax_basics_exersises
     {
         static void Main(string[] args)
         {
-            //CONFIRMED from Rakrone
+            
             //We get from the console a name on the first line
             //on the next four lines we get integers for current health, max health, current energy, max energy
             string name = Console.ReadLine();
